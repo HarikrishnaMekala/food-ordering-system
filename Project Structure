@@ -1,0 +1,13 @@
+restro-works-app/
+│── backend/ (Node + Express + MongoDB)
+│   ├── models/ (User, Menu, Order schemas)
+│   ├── routes/ (auth, menu, order APIs)
+│   └── server.js
+│
+│── frontend/ (React)
+│   ├── src/components/ (Navbar, Menu, Cart, AdminDashboard)
+│   ├── src/pages/ (Home, Login, Register, Orders, Admin)
+│   ├── src/context/ (AuthContext, CartContext)
+│   └── src/App.js
+│
+│── README.md
